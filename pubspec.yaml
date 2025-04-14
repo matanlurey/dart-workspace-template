@@ -1,0 +1,22 @@
+# Format: https://dart.dev/tools/pub/pubspec
+
+name: workspace
+
+# UNCOMMENT THESE TO PUBLISH TO PUB.
+# description: |-
+#   A description of the package.
+# version: 0.0.0
+# repository: https://github,com/matanlurey/package
+
+environment:
+  sdk: ^3.7.0
+
+workspace:
+  - packages/package
+
+dev_dependencies:
+  chore:
+    git:
+      url: https://github.com/matanlurey/pub.lurey.dev
+      path: packages/chore
+  oath: ^0.4.0
