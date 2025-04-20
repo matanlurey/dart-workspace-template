@@ -19,5 +19,5 @@ dev_dependencies:
     git:
       url: https://github.com/matanlurey/pub.lurey.dev
       path: packages/chore
-      ref: 58b4e27d43a12b4cb76a49495d70ad10f78e5ee4
+      ref: 254e92a28e6b7a329e4e0c5c1639f298bbf51e70
   oath: ^0.4.0
